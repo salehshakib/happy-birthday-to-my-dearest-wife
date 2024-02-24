@@ -1,10 +1,12 @@
-import Dandelion from "./Dandelion";
-import Flower from "./Flower";
-import Gift from "./Gift";
-import Greetings from "./Greetings";
-import Heart from "./Heart";
-import Party from "./Party";
-import Wish from "./Wish";
+import { lazy } from "react";
+
+const Greetings = lazy(() => import("./Greetings"));
+const Wish = lazy(() => import("./Wish"));
+const Party = lazy(() => import("./Party"));
+const Gift = lazy(() => import("./Gift"));
+const Heart = lazy(() => import("./Heart"));
+const Flower = lazy(() => import("./Flower"));
+const Dandelion = lazy(() => import("./Dandelion"));
 
 const BirthdayPage = () => {
   return (

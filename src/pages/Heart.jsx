@@ -1,6 +1,6 @@
 import animationData from "../assets/lotties/heart-lottie.json";
 import LottieImg from "./../component/LottieImg";
-import heart from "../assets/heart.gif";
+import heart from "../assets/heart-balloon.gif";
 
 const Heart = () => {
   return (
