@@ -40,6 +40,10 @@
   background: linear-gradient(to right, #010d55, #1aa9d6);
 }
 
+.fp-watermark {
+  display: none;
+}
+
 @media screen and (max-width: 640px) {
   .main {
     padding: 0;
