@@ -4,12 +4,16 @@ import Gift from "./Gift";
 import Greetings from "./Greetings";
 import Heart from "./Heart";
 import Party from "./Party";
+import Wish from "./Wish";
 
 const BirthdayPage = () => {
   return (
     <>
       <div className="section">
         <Greetings />
+      </div>
+      <div className="section ">
+        <Wish />
       </div>
       <div className="section ">
         <Party />

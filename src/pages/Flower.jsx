@@ -10,7 +10,7 @@ const Flower = () => {
 
       <h1 className="font-bold text-2xl md:text-4xl">
         And a <span className="text-red-600">Flower </span>for my{" "}
-        <span className="text-pink-600">Flower </span>.
+        <span className="text-pink-600">Flower </span> {":)"}
       </h1>
     </div>
   );

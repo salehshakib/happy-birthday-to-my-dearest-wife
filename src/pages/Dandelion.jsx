@@ -10,7 +10,8 @@ const Dandelion = () => {
 
       <h1 className="font-bold text-2xl md:text-4xl">
         Keep it hidden or it will fly{" "}
-        <span className="text-red-600">away </span>.
+        <span className="text-red-600">away </span>
+        {":("}
       </h1>
     </div>
   );
