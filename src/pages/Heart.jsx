@@ -14,7 +14,7 @@ const Heart = () => {
           I give you my <span className="text-red-600">Heart</span>
         </h1>
 
-        <img src={heart} alt="" className="size-8 md:size-10 object-cover" />
+        <img src={heart} alt="" className="size-10 " />
       </div>
     </div>
   );

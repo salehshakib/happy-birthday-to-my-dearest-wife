@@ -1,7 +1,7 @@
-import animationData from "./../assets/lotties/dandelion.json";
+import animationData from "./../assets/lotties/guiter.json";
 import LottieImg from "./../component/LottieImg";
 
-const Dandelion = () => {
+const Message = () => {
   return (
     <div className="flex-col flex gap-2 justify-center items-center h-[60vh]  ">
       <div className="size-[200px] md:size-[400px]">
@@ -9,12 +9,11 @@ const Dandelion = () => {
       </div>
 
       <h1 className="font-bold text-2xl md:text-4xl text-center">
-        Keep it hidden or it will fly{" "}
-        <span className="text-red-600">away </span>
-        {":("}
+        One <span className="text-red-600">thing </span>I want to say before
+        goodbye !
       </h1>
     </div>
   );
 };
 
-export default Dandelion;
+export default Message;

@@ -7,6 +7,8 @@ const Gift = lazy(() => import("./Gift"));
 const Heart = lazy(() => import("./Heart"));
 const Flower = lazy(() => import("./Flower"));
 const Dandelion = lazy(() => import("./Dandelion"));
+const Thanks = lazy(() => import("./Thanks"));
+const Message = lazy(() => import("./Message"));
 
 const BirthdayPage = () => {
   return (
@@ -31,6 +33,12 @@ const BirthdayPage = () => {
       </div>
       <div className="section">
         <Dandelion />
+      </div>
+      <div className="section">
+        <Message />
+      </div>
+      <div className="section">
+        <Thanks />
       </div>
     </>
   );
